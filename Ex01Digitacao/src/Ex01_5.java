@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
   Ex 1.5: Troca de dinheiro
   - informar um valor inteiro em reais, sem os centavos
@@ -18,6 +20,18 @@
 -------------------------------------------------------------------*/
 public class Ex01_5 {
     public static void main(String[] args) {
+
+        Scanner leitor = new Scanner(System.in);
+
+         int valor;
+
+         System.out.print("Informe um valor inteiro,sem os centavos: ");
+         valor = leitor.nextInt();
+
+
+
+
+
 
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
   Ex 1.4: Ovos das galinhas
   - calcular quantas caixas de ovos cheias podem ser levadas ao mercado
@@ -11,7 +13,18 @@
   - use a operação de divisão inteira (/) e resto da divisão (%)
 -------------------------------------------------------------------*/
 public class Ex01_4 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

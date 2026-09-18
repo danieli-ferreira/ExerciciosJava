@@ -13,17 +13,19 @@ public class Ex01_2 {
         // eu resolvi chamar meu scanner de "teclado". pode ser qualquer nome
         // ESSA LINHA APARECE UMA VEZ SÓ NO PROGRAMA
         Scanner teclado = new Scanner(System.in);
+        String sobrenome;
 
         // avisa o usuário o que é pra ele digitar
-        System.out.println("Qual o seu nome?");
+        System.out.println("Qual o seu nome?  ");
+        String nome = teclado.next();
+        System.out.println("Qual o seu sobrenome ");
+        sobrenome = teclado.next();
 
         // usa o scanner pra puxar a digitação do teclado para uma variável
         // "teclado" é o nome do scanner. é ele que eu tenho que chamar pra digitar
-        String nome = teclado.next();
 
         // imprime o resultado
-        System.out.println("Olá, " + nome + ", como vai?");
-
+        System.out.print("Olá, " + nome + " " + sobrenome + " como vai voçe");
         // fecha o scanner
         teclado.close();
     }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
     Ex 2.1: Subtotal e raspadinhas
     - informar o valor da compra
@@ -16,5 +18,11 @@
 -------------------------------------------------------------------*/
 public class Ex02_1 {
         public static void main(String[] args) {
+         Scanner leitor = new Scanner(System.in);
+
+         int valorCompra;
+         int brinde;
+
+         System.out.print("Digite o valor da compra em reais: ");
         }
 }
