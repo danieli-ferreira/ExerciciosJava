@@ -14,6 +14,21 @@ import java.util.Scanner;
 -------------------------------------------------------------------*/
 public class Ex01_4 {
     public static void main(String[] args){
+        Scanner leitor = new Scanner(System.in);
+
+
+        int quantidadeOvos;
+        int caixasInteiras;
+        double sobraDeOvos;
+
+        System.out.print("Informe quantos ovos suas galinhas botaram no dia: ");
+        quantidadeOvos = leitor.nextInt();
+
+         caixasInteiras = quantidadeOvos / 12;
+        sobraDeOvos =  quantidadeOvos % 12;
+        System.out.printf("Com essa quantidade de ovos, podemos encher "+caixasInteiras +" caixas inteiras ");
+        System.out. print("\nSobram " +sobraDeOvos+ "ovos");
+
 
 
 

@@ -29,7 +29,7 @@ public class Ex01_6 {
         Scanner leitor = new Scanner(System.in);
 
         int km;
-        double litros;
+        int litros;
         double consumo;
 
         System.out.print("Informe a quantidade inteiros dos kms rodados: ");

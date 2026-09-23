@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*-------------------------------------------------------------------
   Ex 2.2: Confirmacao de senha
   - informar uma senha
@@ -19,5 +21,12 @@
   -------------------------------------------------------------------*/
 public class Ex02_2 {
     public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+
+        int senha;
+
+        System.out.print("Informe a senha: ");
+        senha = leitor.nextInt();
+
     }
 }

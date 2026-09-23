@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.regex.Matcher;
 
 /*-------------------------------------------------------------------
     Ex 2.1: Subtotal e raspadinhas
@@ -20,9 +21,19 @@ public class Ex02_1 {
         public static void main(String[] args) {
          Scanner leitor = new Scanner(System.in);
 
-         int valorCompra;
-         int brinde;
+         double valorCompra;
+         int brinde=0;
 
          System.out.print("Digite o valor da compra em reais: ");
+         valorCompra = leitor.nextDouble();
+
+         if(valorCompra > 100) {
+             brinde = (int)(valorCompra / 100);
+             System.out.println("Parabéns voçê ganhou o brinde. "+brinde);
+         }else {
+             System.out.print("Voçe nao ganhou raspadinhas. ");
+         }
+        System.out.print("O valor da compra foi: "+valorCompra);
+        System.out.print("O brinde é esse: "+brinde);
         }
 }
