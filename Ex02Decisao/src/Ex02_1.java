@@ -29,11 +29,11 @@ public class Ex02_1 {
 
          if(valorCompra > 100) {
              brinde = (int)(valorCompra / 100);
-             System.out.println("Parabéns voçê ganhou o brinde. "+brinde);
+             System.out.println("Parabéns voçê ganhou raspadinhas. "+brinde);
          }else {
              System.out.print("Voçe nao ganhou raspadinhas. ");
          }
-        System.out.print("O valor da compra foi: "+valorCompra);
-        System.out.print("O brinde é esse: "+brinde);
+        System.out.print("\nO valor da compra foi: "+valorCompra);
+        System.out.print("\nO brinde é esse: "+brinde+ " raspadinha (as). ");
         }
 }
